@@ -27,7 +27,7 @@ namespace BeikaWeb
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!test");
+                await context.Response.WriteAsync("Hello World!test 2nd");
             });
         }
     }
